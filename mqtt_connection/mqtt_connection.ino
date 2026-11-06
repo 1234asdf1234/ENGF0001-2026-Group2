@@ -6,13 +6,12 @@
 
 void setup() {
     Serial.begin(115200);
-    wifi_connect();
+    while (WiFi.status() != WL_CONNECTED) {
+        wifi_connect();
+    }
     publish();
 }
 
 void loop() {
-    while (WiFi.status() != WL_CONNECTED) {
-        wifi_connect();
-    }
     client.loop(); 
 }

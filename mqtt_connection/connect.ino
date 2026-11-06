@@ -5,9 +5,9 @@
 // eduroam config starts
 // configure your connection here
 #define USE_EDUROAM 0
-#define WIFI_USER "zcabzy2@ucl.ac.uk"
+#define WIFI_USER "YOUR UCL ACCOUNT"
 #define WIFI_SSID "Glide-5"
-#define WIFI_PASS "Beriaru_Beiliya"
+#define WIFI_PASS "YOUR UCL PASSWORD"
 // end of configuration
 
 #include "connect.h"
