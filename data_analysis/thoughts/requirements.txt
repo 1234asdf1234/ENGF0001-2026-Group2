@@ -1,3 +1,6 @@
 paho_mqtt
 matplotlib
+numpy
+pandas
+
 

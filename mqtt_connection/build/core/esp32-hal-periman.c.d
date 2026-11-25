@@ -1,0 +1,31 @@
+/Users/beriaru/Documents/ENGF0001-2026-Group2/mqtt_connection/build/core/esp32-hal-periman.c.o: \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/esp32-hal-periman.c \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/esp32-hal-log.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/qio_qspi/include/sdkconfig.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_timer/include/esp_timer.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/newlib/platform_include/stdio.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_err.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_compiler.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_hw_support/include/esp_etm.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_rom/esp32/include/esp32/rom/ets_sys.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_rom/include/esp_rom_sys.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/soc/esp32/include/soc/reset_reasons.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/soc/esp32/include/soc/soc_caps.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_config.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_level.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_assert.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_color.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_buffer.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_timestamp.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_write.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_format.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_args.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_macros.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_assert.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_log_attr.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_attr.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/log/include/esp_private/log_attr.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/esp32-hal-periman.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/esp32-hal-ldo.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_bit_defs.h

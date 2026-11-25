@@ -1,0 +1,31 @@
+Anomaly detection functions.
+written in pseudocode in following format:
+"FAULT": variable_1, ....
+    Rules:
+    e.g. score = .....
+    return ...score...
+
+"heater_power_loss": actuators_avg.heater_pwm, heater_energy_wh:
+    Rules:
+    // the number of duty cycles should be porpotional to heater power
+    // thus develop a "gradient" for these two variables and fail if gradient changes much
+
+    // notice: heater_energy_wh does not change much even window.seconds fluctuate to 2, so ignore this
+
+    gradient = (heater_energy_wh * 3600) / actuators.avg_heater_pwm
+    return (gradient changes too much, e.g. 15% change from last value)
+
+"voltage_drop": temperature_C.mean, temperature_C.min, temperature_C.max, heater_energy_Wh, setpoints.temperature_C, rpm.mean
+    Rules:
+    // if mean is away from setpoint
+    // calculate the maximum possible data difference between frames
+    // check if the change in temperature_C.mean exceeds this threshold
+    // 
+
+"ph_offset_bias": pH.mean, pH.max, pH.min, dosing_l.acid, dosing_l.base
+    Rules:
+    // if pH.mean fluctuates when dosing_l.acid/base is zero then error occurs
+    // if net pH titration is much lower than net pH change then error occurs (often accompanies incorrect pumping)
+
+
+

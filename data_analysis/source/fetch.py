@@ -2,8 +2,9 @@
 
 import paho.mqtt.client as mqtt
 
+MAX_ENTRIES = 200
+
 def on_connect(client, userdata, flags, rc):
-    print("Connected with result code", rc)
     client.subscribe("bioreactor_sim/nofaults/telemetry/summary")
 
 def on_message(client, userdata, msg):

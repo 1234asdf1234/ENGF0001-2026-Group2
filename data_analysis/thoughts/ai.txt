@@ -1,0 +1,16 @@
+Inspect the dataset and try to identify characteristics of each three fault types.
+Then devise reliable algorithms detecting each of these faults, adopting windowed detection.
+Each step should contain a convincing reason, maintaining simplicity of algorithm(s).
+The testing loop is as follows, will return to step 1 if any fails.
+
+Later plan to interact with a data stream which changes setpoints for temperature, etc.
+Changing of setpoints are "scheduled", and change in values are deterministic.
+Relevant values will try to reach the relevant setpoints.
+Devise a way to distinguish faults from chasing setpoints, and test it on these:
+-   a recorded dataset with manipuated setpoints.
+-   the real datastream.    (may wait for an hour before setpoints change)
+
+1. propose algorithm
+2. check against allfault dataset to make them all positive
+3. check against nofault dataset to make no false positives
+4. check against online stream containing both nofaults and multiple faults records, enhance targeting

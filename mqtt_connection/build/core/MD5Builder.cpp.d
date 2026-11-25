@@ -1,0 +1,20 @@
+/Users/beriaru/Documents/ENGF0001-2026-Group2/mqtt_connection/build/core/MD5Builder.cpp.o: \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/MD5Builder.cpp \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/HEXBuilder.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/WString.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/pgmspace.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/newlib/platform_include/ctype.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/Stream.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/Print.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/newlib/platform_include/stdio.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/WString.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/Printable.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/MD5Builder.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_system/include/esp_system.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_err.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_compiler.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_attr.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_bit_defs.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_common/include/esp_idf_version.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/tools/esp32-libs/3.3.12/include/esp_rom/include/esp_rom_md5.h \
+ /Users/beriaru/Library/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32/HashBuilder.h
