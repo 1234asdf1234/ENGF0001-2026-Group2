@@ -10,7 +10,7 @@ import sys
 
 BROKER = "engf0001.cs.ucl.ac.uk"
 TOPIC = "bioreactor_sim/variable_setpoints/telemetry/summary"
-MAX_ENTRIES = 200
+MAX_ENTRIES = 1200
 
 # This DataFrame contains the most recent MAX_ENTRIES MQTT messages.
 df = pd.DataFrame()
@@ -32,8 +32,9 @@ def append_record(record: dict) -> None:
     # Determine whether this record contains any faults.
     last_active = record.get("faults", {}).get("last_active", [])
 
-    # only extract faulty entries with faulty streams, except variable_setpoints
-    if "fault" in TOPIC:
+    # only extract faulty entries ith faulty streams, except variable_setpoints
+    '''
+    if "fault" in TOPIC and "nofaults" not in TOPIC:
         # Faults listed in last_active
         has_active_fault = (
             last_active is not None
@@ -56,6 +57,7 @@ def append_record(record: dict) -> None:
         if not (has_active_fault or has_counted_fault):
             print(f"Received but ignored due to no faults occur, now have {len(df)} entries.")
             return
+    '''
 
     print(f"Received and stored, now have {len(df)} entries")
     # concat aligns columns, so messages with different JSON fields are supported.
@@ -128,12 +130,12 @@ def main():
         client.disconnect()
 
     # dump the dataframe for inspection
-    df.to_csv("dump.csv", mode="a", index=False, header=False)
+    df.to_csv(sys.argv[2], index=False)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Provide the stream name.")
+    if len(sys.argv) != 3:
+        print("Provide the stream name and file name.")
         sys.exit(1)
     TOPIC = f"bioreactor_sim/{sys.argv[1]}/telemetry/summary"
     main()

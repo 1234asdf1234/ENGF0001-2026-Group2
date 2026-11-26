@@ -294,11 +294,12 @@ def plot_ph_comparison(
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    df_ok = load_telemetry_csv(str(ROOT / "data" / "nofaults.csv"))
+    df_ok = load_telemetry_csv(str(ROOT / "source" / "nofaults.csv"))
 
     det = StreamingFaultDetector(adapt=False).fit_seed(df_ok)
     det.calibrate_thresholds(df_ok)
 
+    ''''''
     df_h, y_h = make_heater_power_loss_sample(df_ok)
     df_t, y_t, rec_t = make_therm_voltage_bias_sample(df_ok)
     df_p, y_p, rec_p = make_ph_offset_bias_sample(df_ok)
